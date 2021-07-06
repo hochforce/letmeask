@@ -3,7 +3,7 @@ import { Button } from '../components/Button';
 import '../styles/room.scss';
 import { RoomCode } from '../components/RoomCode';
 import { useParams } from 'react-router-dom';
-import { useState, FormEvent, useEffect } from 'react';
+import { useState, FormEvent } from 'react';
 import { useAuth } from '../hooks/useAuth';
 import { database } from '../services/firebase';
 import { Question } from '../components/Question';
